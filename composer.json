@@ -1,0 +1,23 @@
+{
+    "name": "keepeye/laravel-cors",
+    "description": "",
+    "authors": [
+        {
+            "name": "XianZhao",
+            "email": "carlton.cheng@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Keepeye\\LaravelCors\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
